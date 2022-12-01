@@ -19,13 +19,12 @@ def create_sum_arr():
             temparr.append(current_sum)
             current_sum = 0
     temparr.append(current_sum)
-    
-    return temparr.sort(reverse=True)
+    temparr.sort(reverse=True)
+    return temparr
 
 data_sorted = create_sum_arr()
 
 
 
 
-
-print(f"one: {data_sorted[0]}, two: {data_sorted[:3]}")
+print(data_sorted[0], sum(data_sorted[:3]))
