@@ -1,6 +1,6 @@
 """
 Solution for
-Day 4: 
+Day 4: Camp Cleanup
 """
 
 with open("data.txt") as file:
